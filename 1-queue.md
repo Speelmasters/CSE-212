@@ -13,12 +13,9 @@ from queue import Queue
 ## Queue Methods
 
 ### Enqueue
-Enqueue adds an item to the end of the queue. This method has essesntially the same for withever data structure you use for your queue. For a list, you can use ` append()` , for a Queue is `
+Enqueue adds an item to the end of the queue. This method has essesntially the same for withever data structure you use for your queue. For a list and deque, you can use ` append()`  and for a Queue it is `put()`.
 ### Dequeue
-Dequeue removes the item that was added least recently from the list or queue and returns the value that was stored  in that place. 
-### Front
-
-### Rear
+Dequeue removes the item that was added least recently from the list or queue and returns the value that was stored  in that place. This is essentially helping or getting the the next "person" in line, or the next item to be removed from the queue. To dequeue a list, use `pop(0)`, in a Queue us `pop()` without the 0, and for deque use `get()`
 
 ## Example: Haircut Queue
 In the example below, we will write a program that allows the user to add people to the queue and remove them. Before we write the code, we should amke a list of requirements that we want our code to handle.  Writing a list of requirements is an important step in writing software. In this example, we will be using the deque data structure.

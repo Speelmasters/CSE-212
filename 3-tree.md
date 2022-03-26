@@ -6,7 +6,7 @@
 In this lession, we will be looking at one of the most basic tree structures, the Binary Tree. It is call this because it has at most two child nodes. The nodes consist of the data stored and two pointers. These pointer point to the next node below it, making it look like a tree.
 
 
-![Tree](Tree.jpg)
+![Tree](Tree.png)
 ## Tree Methods
 
 ### Enqueue

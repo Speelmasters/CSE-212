@@ -10,7 +10,7 @@ The disadvantages include slower searching functions and an overall increase in 
 THe methods available when using a linked list differ depending on the structure it was built with. In Python, there are no native libraries that impiment a linked list, but you can build a linked list class yourself, utilize a `deque` from `from collections import deque`, or look up a library you can import and utilize their linked lists.
 
 ### Insert
-The insert method pertains to two mains types of methods, adding an item to the end of the list, and inserting an item into the list either after a value or at a certain length from the start.
+The insert method pertains to three mains types of methods, adding an item to the end of the list, adding an item to the front of the list, and inserting an item into the list after a specified value.
 
 ### Remove
 The remove function has two main parts as well. First being remove the first instance of the value, and second being remove all instances of the value. 

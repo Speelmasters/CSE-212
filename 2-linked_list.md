@@ -1,5 +1,6 @@
 # Linked List
 Like many data structures, such as arrays or lists, the linked list is a linear data structure. This means that each item is connected to one value in front of it and one value behind. Unlike arrays though, the items in a linked list are not stored in the same location. New values that are added are linked to the previous values by a pointer. 
+![linked list](linked_list.jpg)
 
 The advantages of a linked list include dynamic size and quick insertion/deletion. A linked list has each value held at a different location, so it can grow as long is there is available space. It can also add or remove items from within the list by replcaing the referenced node with a new node when adding or the next node when deleteing.
 

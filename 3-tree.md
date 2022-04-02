@@ -17,6 +17,6 @@ The `contains` method is used to check if the specified value is present within 
 For this example, here is an [example](trees_incomplete.py) of a binary tree that can be built and used in Python. A majority of this class has copyright by BYUI, and as such make no claim to the code. I have included a few changes and implimented some functions. 
 
 ## Problem to Solve: Add a remove method
-For the problem, you will impliment a remove method. This may seem simple, but the method will need to check if either braches is missing and which side to bring up to replace the removed node. 
+For the problem, you will impliment a remove method. This method will remove the branch that contains the value specified.
 
 Once you have finished your implimentations of the method above, take a look at this possible [solution](trees_solution.py) and compare ways to solve the problems. 

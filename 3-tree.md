@@ -7,12 +7,16 @@ In this lession, we will be looking at one of the most basic tree structures, th
 
 ## Tree Methods
 
-### Enqueue
-Enqueue adds an item to the end of the queue. This method has essesntially the same for withever data structure you use for your queue. For a list and deque, you can use ` append()`  and for a Queue it is `put()`.
-### Dequeue
-Dequeue removes the item that was added least recently from the list or queue and returns the value that was stored  in that place. This is essentially helping or getting the the next "person" in line, or the next item to be removed from the queue. To dequeue a list, use `pop(0)`, in a Queue us `pop()` without the 0, and for deque use `get()`
+### Insert
+The `insert()` method is used to add an item to the tree based on the preset condition. In a Binary tree, it compares the value as the current node, and branches to the right or left untill there is no refernce on the following branch. 
 
-## Example: Haircut Queue
+### Contains
+The `contains` method is used to check if the specified value is present within the tree. If traverses the tree similar to the insert method, but returns a boolean of true if it finds a node with the designated value.
 
+## Example: Binary Tree
+For this example, here is an [example](trees_incomplete.py) of a binary tree that can be built and used in Python. A majority of this class has copyright by BYUI, and as such make no claim to the code. I have included a few changes and implimented some functions. 
 
-## Problem to Solve: Limited Queue
+## Problem to Solve: Add a remove method
+For the problem, you will impliment a remove method. This may seem simple, but the method will need to check if either braches is missing and which side to bring up to replace the removed node. 
+
+Once you have finished your implimentations of the method above, take a look at this possible [solution](trees_solution.py) and compare ways to solve the problems. 
